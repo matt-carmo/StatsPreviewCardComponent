@@ -91,7 +91,26 @@ ul {
     font-weight: 400;
     font-family: "Inter", sans-serif;
 }
-@media (max-width: 700px) {
+
+.footer {
+     
+      position:absolute;
+      margin-bottom: -90vh;
+ 
+ 
+       font-size: 0.75rem;
+       line-height: 20px;
+ 
+       color:#fff;
+ 
+   }
+   .footer a {
+       text-decoration: none;
+       color: #9657C0; 
+       font-weight: bold;
+   }
+@media (max-width: 700px) 
+{
     .main {
         grid-template-columns: 1fr;
         width: 80%;
@@ -116,24 +135,12 @@ ul {
     ul li {
         margin: 20px;
     }
+    .footer{
+            margin-bottom: -120vh;
+    }
+    /*end*/
 }
-.footer {
-     
-     position:absolute;
-     margin-bottom: -121vh;
 
-
-      font-size: 0.75rem;
-      line-height: 20px;
-
-      color:#fff;
-
-  }
-  .footer a {
-      text-decoration: none;
-      color: #9657C0; 
-      font-weight: bold;
-  }
 
 @media (max-width: 1336px) {
     body {
