@@ -119,13 +119,15 @@ ul {
 }
 .footer {
      
-      position: absolute;
-      bottom: 0;
+     position:absolute;
+     margin-bottom: -95vh;
+
+
       font-size: 0.75rem;
       line-height: 20px;
-      text-align: center;
+
       color:#fff;
-      margin-bottom: 10px;
+
   }
   .footer a {
       text-decoration: none;
